@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
+/* --------------------------------------------------------------------------
+   VARIABLES ROOT (mode clair par défaut)
+   -------------------------------------------------------------------------- */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #ffffff;
+    --foreground: #111111;
+
+    --color-primary: #cc3366;
+    --color-primary-dark: #99264d;
+    --color-primary-light: #ff4f8e;
+
+    --bg-light: #ffffff;
+    --bg-section: #f5f5f5;
 }
+
+
+/* --------------------------------------------------------------------------
+   TAILWIND @theme (nouvelle syntaxe Tailwind v4)
+   -------------------------------------------------------------------------- */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+
+    --color-primary: var(--color-primary);
+    --color-primary-dark: var(--color-primary-dark);
+    --color-primary-light: var(--color-primary-light);
+
+    --bg-light: var(--bg-light);
+    --bg-section: var(--bg-section);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* --------------------------------------------------------------------------
+   STYLES GLOBAUX
+   -------------------------------------------------------------------------- */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+    @apply antialiased;
+}
+
+/* Scrollbar stylée */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-dark);
+}
+::-webkit-scrollbar-thumb {
+    background: #1f1f2e;
+    border-radius: 50px;
+}
+
+/* Utilitaires personnalisés */
+.section-padding {
+    @apply py-16 md:py-24;
+}
+.section-title {
+    @apply text-3xl md:text-4xl font-semibold tracking-tight;
+}
+.section-subtitle {
+    @apply text-sm md:text-base text-slate-400 max-w-xl;
+}
+.badge {
+    @apply inline-flex items-center rounded-full border border-[var(--color-primary)]/40
+    bg-[var(--color-primary)]/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.16em]
+    text-[var(--color-primary)];
+}
+
+.form-input {
+    @apply w-full rounded px-3 py-2 bg-[#1a1a1a] border border-white/20 text-sm text-white placeholder:text-gray-400;
 }
