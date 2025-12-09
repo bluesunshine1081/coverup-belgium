@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { fadeUp, fadeScale } from "../lib/motion";
+import {fadeUp} from "@/app/lib/motion";
 
 export default function Hero() {
     return (
@@ -11,15 +11,15 @@ export default function Hero() {
         >
             {/* Background image */}
             <div
-                className="absolute inset-0 bg-cover bg-right md:bg-center"
+                className="absolute inset-0 bg-cover bg-center"
                 style={{
                     backgroundImage:
-                        "url('https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg')",
+                        "url('https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg')",
                 }}
             />
 
             {/* Premium gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/20" />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40" />
 
             {/* Content */}
             <div className="relative max-w-7xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-10 items-center h-full">
@@ -40,9 +40,10 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-base md:text-lg text-gray-200 mb-6">
-                        Le covering, une alternative de choix à la peinture, se distingue par son efficacité et son excellent
-                        rapport qualité-prix. Il permet de redonner vie à votre voiture sans investissement dans une nouvelle
-                        peinture.
+                        Le covering est une alternative performante à la peinture classique.
+                        Grâce à un large choix de finitions et de textures, il permet de
+                        transformer votre véhicule tout en protégeant la carrosserie d’origine.
+                        Une solution idéale pour personnaliser votre voiture selon vos envies.
                     </p>
 
                     <div className="flex flex-wrap gap-4">
@@ -62,29 +63,7 @@ export default function Hero() {
                     </div>
                 </motion.div>
 
-                {/* Right card */}
-                {/*<motion.div
-                    variants={fadeScale}
-                    initial="hidden"
-                    animate="visible"
-                    transition={{ delay: 0.15 }}
-                    className="hidden md:flex justify-end"
-                >
-                    <div className="bg-black/80 backdrop-blur-md border border-white/10 rounded-2xl p-6 w-[320px] shadow-xl">
-                        <h3 className="text-white font-medium text-[15px] mb-3">
-                            Contactez votre spécialiste covering
-                        </h3>
-
-                        <a
-                            href="tel:+32473289842"
-                            className="bg-[#d62458] hover:bg-[#b51f4b] transition text-white px-6 py-3 rounded-full text-sm font-medium shadow-md inline-block"
-                        >
-                            +32 4 73 28 98 42
-                        </a>
-                    </div>
-                </motion.div>*/}
             </div>
         </section>
-
     );
 }
