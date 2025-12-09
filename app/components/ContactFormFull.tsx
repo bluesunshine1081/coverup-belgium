@@ -16,14 +16,16 @@ export default function ContactFormFull() {
                     viewport={{ once: true }}
                 >
                     <img
-                        src="https://www.covering-bruxelles.be/wp-content/uploads/2023/03/1.png"
+                        src="logo.png"
                         className="h-12 mb-4"
                     />
 
                     <h3 className="text-xl font-bold uppercase mb-3">Nous contacter</h3>
 
                     <p className="text-sm text-slate-700 mb-6">
-                        {/* TODO : texte exact Elementor */}
+                        Pour toute demande de devis, renseignement ou projet de covering — que ce soit pour un véhicule personnel ou professionnel — n’hésitez pas à nous contacter.
+                        Nous vous répondrons dans les 24 heures.
+                        Vous pouvez nous appeler directement, envoyer un e-mail, ou remplir le formulaire ci-dessous : notre équipe vous accompagnera pour trouver la meilleure solution adaptée à vos besoins et votre budget.
                     </p>
 
                     <p className="text-sm">

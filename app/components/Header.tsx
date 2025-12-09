@@ -13,9 +13,9 @@ export default function Header() {
                 {/* LOGO */}
                 <a href="#hero" className="flex items-center">
                     <img
-                        src="https://www.covering-bruxelles.be/wp-content/uploads/2023/03/1.png"
+                        src="logo.png"
                         alt="Covering Bruxelles"
-                        className="h-10 w-auto"
+                        className="h-10 w-auto text-white"
                     />
                 </a>
 
