@@ -17,9 +17,9 @@ export default function CoveringParticulier() {
                     className="relative order-2 md:order-1"
                 >
                     <img
-                        src="https://www.covering-bruxelles.be/wp-content/uploads/2023/04/covering-particulier.jpg"
+                        src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg"
                         alt="Covering Particulier"
-                        className="rounded-lg w-full shadow-xl relative z-10"
+                        className="rounded-lg w-full shadow-xl relative z-10 object-cover"
                     />
 
                     <div className="absolute -left-5 top-0 w-3 h-full bg-[#d62458] rounded-lg"></div>
@@ -39,7 +39,12 @@ export default function CoveringParticulier() {
                     </h3>
 
                     <p className="text-sm text-slate-700 leading-relaxed mb-4">
-                        {/* TODO : coller texte original */}
+                        Le covering représente une solution idéale pour personnaliser l’apparence
+                        de votre véhicule sans avoir recours à une peinture définitive. Que vous
+                        souhaitiez adopter une finition matte, satinée, brillante ou un coloris plus
+                        audacieux, cette technique permet de transformer votre voiture selon vos goûts,
+                        tout en préservant la peinture d’origine. C’est une méthode esthétique,
+                        réversible et particulièrement appréciée pour donner un style unique à votre auto.
                     </p>
 
                     <div className="text-sm space-y-3">
@@ -59,3 +64,4 @@ export default function CoveringParticulier() {
         </section>
     );
 }
+

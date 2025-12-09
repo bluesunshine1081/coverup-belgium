@@ -4,15 +4,17 @@ import { motion } from "framer-motion";
 import { fadeUp } from "../lib/motion";
 
 const items = [
-    "Professionnalisme",
-    "Produits haut de gamme",
-    "Qualité de travail",
-    "Service clientèle attentif",
-    "Sécurité",
-    "Expertise de 10 ans en covering",
-    "Garantie de résultat",
-    "Large gamme de prestations"
+    "Un professionnalisme constant, assuré par une équipe formée aux techniques les plus récentes du covering.",
+    "Des produits haut de gamme, sélectionnés pour leur durabilité, leur résistance et leur rendu esthétique irréprochable.",
+    "Un travail minutieux et soigné, réalisé dans le respect total de votre véhicule afin de garantir un résultat propre et durable.",
+    "Un service clientèle attentif, capable de vous conseiller et de vous accompagner dans le choix du film et de la finition.",
+    "Une expertise développée au fil des années, permettant d’assurer une pose précise et un résultat premium sur chaque projet.",
+    "Une large gamme de prestations adaptées aux particuliers comme aux professionnels, pour répondre à chaque besoin spécifique.",
 ];
+
+const text =
+    "Nous vous offrons un service de covering précis et professionnel, réalisé avec des films de haute qualité garantissant une longue durée de vie, une excellente tenue des couleurs et une protection renforcée de votre véhicule.";
+
 
 export default function ExpertiseGrid() {
     return (
@@ -32,8 +34,15 @@ export default function ExpertiseGrid() {
                     Une expertise inégalée à Bruxelles
                 </h2>
 
+
                 <p className="text-sm text-slate-600 mb-10">
-                    {/* Texte à coller depuis le site */}
+                    Depuis plusieurs années, notre équipe met à votre disposition un savoir-faire
+                    reconnu dans le domaine du covering et de la protection de véhicules. Grâce à
+                    une maîtrise précise des techniques de pose et une sélection rigoureuse de films
+                    haut de gamme, nous garantissons un rendu impeccable, durable et parfaitement
+                    adapté à vos besoins. Que ce soit pour personnaliser votre véhicule, renforcer
+                    votre image professionnelle ou protéger votre carrosserie, nous vous accompagnons
+                    avec sérieux et passion à chaque étape du projet.
                 </p>
             </motion.div>
 
@@ -51,10 +60,11 @@ export default function ExpertiseGrid() {
                         <div className="h-10 w-10 flex items-center justify-center rounded-full bg-[#d62458] text-white font-bold">
                             ✓
                         </div>
+
                         <p className="text-sm text-slate-700">
-                            {/* Coller texte exact du site */}
                             {text}
                         </p>
+
                     </motion.div>
                 ))}
             </div>

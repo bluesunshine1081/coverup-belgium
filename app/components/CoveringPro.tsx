@@ -15,7 +15,9 @@ export default function CoveringPro() {
                     Nos prestations
                 </h2>
                 <p className="text-sm text-slate-600 mt-2">
-                    {/* TODO : texte original */}
+                    Pour les professionnels et les particuliers, nous proposons des solutions de covering adaptées
+                    à tous les besoins : changement de couleur, total covering, semi covering, lettrage publicitaire,
+                    vitres teintées ou encore film de protection PPF.
                 </p>
             </div>
 
@@ -33,7 +35,12 @@ export default function CoveringPro() {
                     </h3>
 
                     <p className="text-sm text-slate-700 leading-relaxed mb-4">
-                        {/* TODO : coller le texte du site */}
+                        Vous avez une entreprise et vous êtes à la recherche d’un moyen efficace de valoriser
+                        votre image de marque tout en augmentant votre visibilité sur la route ? Grâce au covering
+                        professionnel, vous transformez vos véhicules de société en supports de communication puissants.
+                        L’habillage publicitaire permet de renforcer votre identité visuelle, d’améliorer la cohérence
+                        de votre flotte et de capter l’attention instantanément.
+                        C’est une solution durable, économique et totalement personnalisable.
                     </p>
 
                     <div className="space-y-3 text-sm text-slate-700">
@@ -64,9 +71,9 @@ export default function CoveringPro() {
                     className="relative"
                 >
                     <img
-                        src="https://www.covering-bruxelles.be/wp-content/uploads/2023/04/covering-pro-vehicule.jpg"
-                        alt="Covering Professionnel"
-                        className="rounded-lg shadow-xl relative z-10"
+                        src="https://images.pexels.com/photos/6194333/pexels-photo-6194333.jpeg"
+                        alt="Covering professionnel"
+                        className="rounded-lg shadow-xl relative z-10 object-cover"
                     />
 
                     {/* Red decorative stripes */}
@@ -77,3 +84,4 @@ export default function CoveringPro() {
         </section>
     );
 }
+

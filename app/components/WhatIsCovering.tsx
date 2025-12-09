@@ -34,8 +34,16 @@ export default function WhatIsCovering() {
                 <h2 className="text-xl md:text-2xl font-bold uppercase mb-4">
                     Qu'est-ce que le covering ?
                 </h2>
+
                 <p className="text-sm text-slate-700 leading-relaxed mb-12">
-                    {/* TODO : coller le texte exact */}
+                    Le covering automobile consiste à appliquer un film adhésif de haute
+                    qualité sur tout ou partie de la carrosserie afin de modifier
+                    l’apparence du véhicule ou de protéger la peinture d’origine.
+                    Cette technique, totalement réversible, permet d’obtenir un rendu
+                    esthétique professionnel sans devoir passer par une peinture
+                    définitive et plus coûteuse. Le film vinyle offre une grande variété
+                    de couleurs, de textures et de finitions, permettant une personnalisation
+                    complète et durable.
                 </p>
             </motion.div>
 

@@ -24,7 +24,11 @@ export default function AddElegance() {
                     </h2>
 
                     <p className="text-sm text-slate-700 leading-relaxed mb-4">
-                        {/* TODO : texte exact */}
+                        Grâce au covering, vous pouvez sublimer l’apparence de votre véhicule avec des
+                        finitions élégantes et durables. Que vous optiez pour un style sobre, moderne ou
+                        plus audacieux, les films vinyles permettent d’améliorer le look de votre voiture
+                        tout en préservant sa peinture d’origine. Une solution idéale pour apporter du
+                        caractère et une touche d’originalité à votre automobile.
                     </p>
                 </motion.div>
 
@@ -34,9 +38,9 @@ export default function AddElegance() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}
-                    src="https://www.covering-bruxelles.be/wp-content/uploads/2023/04/add-elegance.jpg"
+                    src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg"
                     alt="Élégance Covering"
-                    className="rounded-lg shadow-xl"
+                    className="rounded-lg shadow-xl object-cover"
                 />
             </div>
         </section>

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { fadeUp } from "../lib/motion";
+import { img } from "framer-motion/client";
 
 export default function AboutCovering() {
     return (
@@ -16,10 +17,11 @@ export default function AboutCovering() {
                     viewport={{ once: true, amount: 0.4 }}
                 >
                     <img
-                        src="https://www.covering-bruxelles.be/wp-content/uploads/2023/04/covering-voiture-bruxelles.jpg"
+                        src="https://images.pexels.com/photos/6870326/pexels-photo-6870326.jpeg"
                         alt="Covering Bruxelles"
-                        className="rounded-lg shadow-lg"
+                        className="rounded-lg shadow-lg object-cover"
                     />
+
                 </motion.div>
 
                 {/* TEXTE */}
@@ -39,12 +41,23 @@ export default function AboutCovering() {
                     </h2>
 
                     <p className="text-sm leading-relaxed text-slate-700 mb-4">
-                        {/* TODO : Coller ici le texte EXACT du site */}
+                        Depuis plus de 10 ans, nous accompagnons particuliers et professionnels dans
+                        la transformation et la protection de leurs véhicules. Grâce à notre expertise
+                        en covering et en films de protection, nous proposons des solutions personnalisées,
+                        esthétiques et entièrement réversibles, sans jamais altérer la carrosserie d’origine.
+                        Que ce soit pour moderniser l’apparence de votre véhicule, renforcer son caractère
+                        ou préserver sa peinture, notre équipe met tout son savoir-faire à votre service.
                     </p>
 
                     <p className="text-sm leading-relaxed text-slate-700">
-                        {/* TODO : Suite du paragraphe */}
+                        Notre démarche repose sur un accompagnement sur mesure à chaque étape : définition
+                        du rendu souhaité, sélection des finitions (mate, satinée, brillante), préparation
+                        minutieuse de la surface et pose professionnelle assurant un résultat durable.
+                        Nous utilisons exclusivement des matériaux de qualité, reconnus pour leur résistance
+                        et leur conformité aux normes d’homologation. Faites confiance à notre expertise
+                        pour obtenir un covering impeccable, durable et parfaitement adapté à vos attentes.
                     </p>
+
                 </motion.div>
             </div>
         </section>

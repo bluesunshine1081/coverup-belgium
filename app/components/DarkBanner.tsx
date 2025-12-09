@@ -4,18 +4,22 @@ export default function DarkBanner() {
             className="py-16 text-white text-center relative bg-cover bg-center"
             style={{
                 backgroundImage:
-                    "url('https://www.covering-bruxelles.be/wp-content/uploads/2023/04/dark-banner-pattern.jpg')",
+                    "url('https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg')",
             }}
         >
-            <div className="absolute inset-0 bg-black/60" />
+            {/* Dark overlay */}
+            <div className="absolute inset-0 bg-black/70" />
 
             <div className="relative z-10">
                 <h2 className="text-xl md:text-2xl font-bold uppercase mb-2">
                     Votre spécialiste covering à Bruxelles
                 </h2>
 
-                <p className="text-sm text-gray-200 mb-6">
-                    Nous équipons et transformons votre véhicule pour refléter vos goûts et votre style.
+                <p className="text-sm text-gray-200 mb-6 max-w-2xl mx-auto">
+                    Spécialistes du covering automobile, nous transformons votre véhicule avec précision
+                    et créativité. Que vous souhaitiez protéger votre carrosserie, moderniser son style
+                    ou lui offrir une finition unique, nous mettons notre expertise à votre service pour
+                    un résultat durable et irréprochable.
                 </p>
 
                 <div className="flex justify-center gap-4">

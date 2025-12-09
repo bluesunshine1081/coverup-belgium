@@ -4,10 +4,13 @@ import { motion } from "framer-motion";
 import { fadeUp } from "../lib/motion";
 
 const images = [
-    "https://www.covering-bruxelles.be/wp-content/uploads/2023/04/realisations-covering-1.jpg",
-    "https://www.covering-bruxelles.be/wp-content/uploads/2023/04/realisations-covering-2.jpg",
-    "https://www.covering-bruxelles.be/wp-content/uploads/2023/04/realisations-covering-3.jpg",
+    "https://images.pexels.com/photos/1082655/pexels-photo-1082655.jpeg",
+    "https://images.pexels.com/photos/1082655/pexels-photo-1082655.jpeg",
+    "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+    "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+    "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
 ];
+
 
 export default function RealisationsCarousel() {
     return (
