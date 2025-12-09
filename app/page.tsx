@@ -1,13 +1,7 @@
 // app/page.tsx
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Advantages from "./components/Advantages";
-import PrestationsList from "./components/PrestationsList";
-import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
-import PrestationsIntro from "./components/PrestationsIntro";
-import Realisations from "@/app/components/Realisations";
-import Expertise from "./components/Expertise";
 import AboutCovering from "@/app/components/AboutCovering";
 import ServicesCards from "@/app/components/ServicesCards";
 import ExpertiseGrid from "@/app/components/ExpertiseGrid";
@@ -34,15 +28,10 @@ export default function Home() {
             <WhyServices />
             <CoveringPro />
             <CoveringParticulier />
-
             <WhatIsCovering />
             <DarkBanner />
             <AddElegance />
             <ContactFormFull />
-
-            {/*<Advantages />
-            <Realisations />*/}
-            {/*<ContactSection />*/}
             <Footer />
         </main>
         );
