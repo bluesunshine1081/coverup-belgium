@@ -5,7 +5,7 @@ import { fadeUp, fadeScale } from "../lib/motion";
 
 export default function CoveringPro() {
     return (
-        <section className="py-20 bg-white text-slate-900">
+        <section id="prestations" className="py-20 bg-white text-slate-900">
             {/* Title */}
             <div className="text-center mb-10">
                 <p className="text-xs uppercase tracking-[0.22em] text-[#d62458]">

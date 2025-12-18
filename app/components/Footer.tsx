@@ -27,15 +27,15 @@ export default function Footer() {
                     <ul className="space-y-1 text-sm text-slate-300">
                         <li>
                             <a
-                                href="https://www.covering-bruxelles.be/vitre-teintee-bruxelles/"
+                                href="#realisations"
                                 className="hover:text-white"
                             >
-                                Vitre teintée Bruxelles
+                                Nos réalisations
                             </a>
                         </li>
                         <li>
                             <a
-                                href="https://www.covering-bruxelles.be/covering-voiture-belgique/"
+                                href="#about"
                                 className="hover:text-white"
                             >
                                 Covering Voiture Belgique
@@ -43,10 +43,10 @@ export default function Footer() {
                         </li>
                         <li>
                             <a
-                                href="https://www.covering-bruxelles.be/ppf-voiture/"
+                                href="#prestations"
                                 className="hover:text-white"
                             >
-                                PPF voiture
+                                Nos prestations
                             </a>
                         </li>
                         {/* etc. – reprends la liste du footer si tu veux tout */}
@@ -58,15 +58,15 @@ export default function Footer() {
                     <ul className="space-y-1 text-sm text-slate-300">
                         <li>
                             <a
-                                href="https://www.covering-bruxelles.be/traitement-ceramique-voiture/"
+                                id="services"
                                 className="hover:text-white"
                             >
-                                Traitement céramique voiture
+                                Film de protection anti-rayures
                             </a>
                         </li>
                         <li>
                             <a
-                                href="https://www.covering-bruxelles.be/lettrage-voiture/"
+                                id="services"
                                 className="hover:text-white"
                             >
                                 Lettrage voiture

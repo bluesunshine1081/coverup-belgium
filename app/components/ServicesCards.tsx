@@ -32,11 +32,9 @@ const items = [
 ];
 
 
-
-
 export default function ServicesCards() {
     return (
-        <section className="py-10 bg-white text-slate-900">
+        <section id="services" className="py-10 bg-white text-slate-900">
             <div className="max-w-6xl mx-auto px-4 md:px-6 text-center mb-10">
                 <p className="text-[13px] uppercase tracking-[0.22em] text-[#d62458] mb-2">
                     Covering Bruxelles

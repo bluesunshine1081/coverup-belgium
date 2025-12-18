@@ -17,10 +17,9 @@ const images = [
     "/images/realisation-11.png",
 ];
 
-
 export default function RealisationsCarousel() {
     return (
-        <section className="bg-white py-20">
+        <section id="realisations" className="bg-white py-20">
             {/* Title */}
             <motion.div
                 variants={fadeUp}

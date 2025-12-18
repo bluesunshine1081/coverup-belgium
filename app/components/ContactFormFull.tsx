@@ -62,7 +62,7 @@ export default function ContactFormFull() {
     };
 
     return (
-        <section className="py-20 bg-white text-slate-900">
+        <section id="contact" className="py-20 bg-white text-slate-900">
             <div className="max-w-6xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-10">
 
                 {/* LEFT — TEXT + LOGO */}
