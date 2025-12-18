@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { fadeUp } from "../lib/motion";
-import { img } from "framer-motion/client";
 
 export default function AboutCovering() {
     return (
@@ -17,7 +16,7 @@ export default function AboutCovering() {
                     viewport={{ once: true, amount: 0.4 }}
                 >
                     <img
-                        src="https://images.pexels.com/photos/6870326/pexels-photo-6870326.jpeg"
+                        src="/images/Section-2.png"
                         alt="Covering Bruxelles"
                         className="rounded-lg shadow-lg object-cover"
                     />

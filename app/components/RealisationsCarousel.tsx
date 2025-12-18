@@ -4,11 +4,17 @@ import { motion } from "framer-motion";
 import { fadeUp } from "../lib/motion";
 
 const images = [
-    "https://images.pexels.com/photos/1082655/pexels-photo-1082655.jpeg",
-    "https://images.pexels.com/photos/1082655/pexels-photo-1082655.jpeg",
-    "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
-    "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
-    "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+    "/images/realisation-1.png",
+    "/images/realisation-2.png",
+    "/images/realisation-3.png",
+    "/images/realisation-4.png",
+    "/images/realisation-5.png",
+    "/images/realisation-6.png",
+    "/images/realisation-7.png",
+    "/images/realisation-8.png",
+    "/images/realisation-9.png",
+    "/images/realisation-10.png",
+    "/images/realisation-11.png",
 ];
 
 

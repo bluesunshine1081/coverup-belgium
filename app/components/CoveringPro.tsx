@@ -14,7 +14,7 @@ export default function CoveringPro() {
                 <h2 className="mt-2 text-2xl md:text-3xl font-bold uppercase">
                     Nos prestations
                 </h2>
-                <p className="text-sm text-slate-600 mt-2">
+                <p className="max-w-4xl mx-auto text-center text-sm text-slate-600 mt-2">
                     Pour les professionnels et les particuliers, nous proposons des solutions de covering adaptées
                     à tous les besoins : changement de couleur, total covering, semi covering, lettrage publicitaire,
                     vitres teintées ou encore film de protection PPF.
@@ -71,7 +71,7 @@ export default function CoveringPro() {
                     className="relative"
                 >
                     <img
-                        src="https://images.pexels.com/photos/6194333/pexels-photo-6194333.jpeg"
+                        src="/images/Section-nos-prestations.png"
                         alt="Covering professionnel"
                         className="rounded-lg shadow-xl relative z-10 object-cover"
                     />

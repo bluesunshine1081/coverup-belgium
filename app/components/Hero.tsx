@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import {fadeUp} from "@/app/lib/motion";
+import Image from "next/image";
 
 export default function Hero() {
     return (
@@ -10,12 +11,11 @@ export default function Hero() {
             className="relative h-[650px] md:h-[760px] flex items-center pt-20 overflow-hidden"
         >
             {/* Background image */}
-            <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                    backgroundImage:
-                        "url('https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg')",
-                }}
+            <Image
+                src="/images/Section-1-hero.png"
+                alt="Hero"
+                fill
+                className="object-cover"
             />
 
             {/* Premium gradient overlay */}

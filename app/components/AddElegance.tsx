@@ -38,7 +38,7 @@ export default function AddElegance() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}
-                    src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg"
+                    src="/images/section-elegance-4.png"
                     alt="Élégance Covering"
                     className="rounded-lg shadow-xl object-cover"
                 />

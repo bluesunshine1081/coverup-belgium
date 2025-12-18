@@ -17,7 +17,7 @@ export default function CoveringParticulier() {
                     className="relative order-2 md:order-1"
                 >
                     <img
-                        src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg"
+                        src="/images/section-covering-particuliers.png"
                         alt="Covering Particulier"
                         className="rounded-lg w-full shadow-xl relative z-10 object-cover"
                     />
