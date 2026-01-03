@@ -6,38 +6,63 @@ import { fadeUp } from "../lib/motion";
 const items = [
     {
         title: "SEMI COVERING",
-        text: "Cette méthode consiste à appliquer une image, un logo, un texte ou un lettrage publicitaire sur une partie spécifique de votre véhicule ou moto.",
-        img: "/images/section-3-covering-partiel.png"
+        text: "Personnalisez une zone précise de votre véhicule (capot, toit, rétros, bandes, éléments de carrosserie) avec un film vinyle, pour un rendu sur mesure.",
+        img: "/images/section-3-covering-partiel.png",
     },
     {
         title: "TOTAL COVERING",
-        text: "L’objectif du total covering est de recouvrir entièrement la carrosserie d’un véhicule.",
-        img: "/images/section-3-total-covering.png"
+        text: "Changez entièrement l’allure de votre véhicule grâce à un recouvrement complet, avec un large choix de teintes et de finitions haut de gamme.",
+        img: "/images/section-3-total-covering.png",
     },
     {
         title: "LETTRAGE",
-        text: "Idéal pour afficher vos coordonnées, un logo, une marque ou un message publicitaire sur votre voiture ou utilitaire.",
-        img: "/images/section-3-lettrage.png"
+        text: "Mettez en avant votre nom, votre activité ou vos informations de contact avec un marquage clair et élégant, adapté aux voitures comme aux utilitaires.",
+        img: "/images/section-3-lettrage.png",
     },
     {
         title: "VITRES TEINTÉES",
-        text: "Pour améliorer le confort thermique et esthétique, nos films sont homologués et garantis 10 ans.",
-        img: "/images/section-3-vitre-teintée.png"
+        text: "Gagnez en confort et en discrétion grâce à des films solaires de qualité, conçus pour améliorer l’esthétique et réduire l’échauffement à bord.",
+        img: "/images/section-3-vitre-teintee.png",
     },
     {
         title: "FILM DE PROTECTION ANTI-RAYURES",
-        text: "Le PPF crée une seconde couche protectrice efficace contre les rayures et les impacts.",
-        img: "/images/section-3-film-rayure-protection.png"
+        text: "Protégez les zones exposées avec un film transparent conçu pour limiter les marques du quotidien (micro-rayures, gravillons, frottements).",
+        img: "/images/section-3-film-rayure-protection.png",
     },
     {
-        title: "CIEL ETOILÉ",
-        text: "Le PPF crée une seconde couche protectrice efficace contre les rayures et les impacts.",
-        img: "/images/section-3-film-rayure-protection.png"
+        title: "CIEL ÉTOILÉ",
+        text: "Créez une ambiance exclusive à l’intérieur avec un ciel étoilé personnalisé, réglé selon l’intensité, la couleur et le style souhaités.",
+        img: "/images/section-3-ciel-etoile.png",
+    },
+    {
+        title: "ÉLECTRONIQUE",
+        text: "Optimisez votre véhicule avec des solutions électroniques sur mesure : amélioration audio, éclairage, options de confort et intégrations spécifiques.",
+        img: "/images/section-3-electronique.png",
     },
     {
         title: "BODY KIT",
-        text: "Le PPF crée une seconde couche protectrice efficace contre les rayures et les impacts.",
-        img: "/images/section-3-film-rayure-protection.png"
+        text: "Affirmez le caractère de votre voiture avec l’installation de pièces et kits carrosserie, ajustés avec précision pour une finition irréprochable.",
+        img: "/images/section-3-body-kit.png",
+    },
+    {
+        title: "DETAILING",
+        text: "Offrez à votre véhicule une remise à niveau esthétique complète, intérieur et extérieur, pour un rendu propre, net et valorisant.",
+        img: "/images/section-3-detailing.png",
+    },
+    {
+        title: "POLISSAGE",
+        text: "Redonnez de la profondeur à la peinture en atténuant les défauts de surface et en retrouvant une brillance plus uniforme.",
+        img: "/images/section-3-polissage.png",
+    },
+    {
+        title: "LAVAGE",
+        text: "Lavage soigné avec une méthode respectueuse des surfaces, pour un résultat impeccable sans agresser la peinture ni les finitions.",
+        img: "/images/section-3-lavage.png",
+    },
+    {
+        title: "TRAITEMENT CÉRAMIQUE",
+        text: "Renforcez la protection et la brillance avec une couche céramique durable, facilitant l’entretien et améliorant la résistance aux agressions extérieures.",
+        img: "/images/section-3-traitement-ceramique.png",
     },
 ];
 
