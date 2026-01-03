@@ -35,27 +35,22 @@ export default function CoveringParticulier() {
                     className="order-1 md:order-2"
                 >
                     <h3 className="text-xl font-bold uppercase mb-4">
-                        Covering véhicule particulier
+                        Covering véhicule pour particulier
                     </h3>
 
                     <p className="text-sm text-slate-700 leading-relaxed mb-4">
-                        Le covering représente une solution idéale pour personnaliser l’apparence
-                        de votre véhicule sans avoir recours à une peinture définitive. Que vous
-                        souhaitiez adopter une finition matte, satinée, brillante ou un coloris plus
-                        audacieux, cette technique permet de transformer votre voiture selon vos goûts,
-                        tout en préservant la peinture d’origine. C’est une méthode esthétique,
-                        réversible et particulièrement appréciée pour donner un style unique à votre auto.
+                        Le covering est une solution idéale pour personnaliser votre voiture avec élégance, sans recourir à une peinture définitive. Finition mate, satinée, brillante ou teinte plus audacieuse : vous choisissez le rendu, nous sublimons les lignes de votre véhicule avec une pose maîtrisée et des matériaux haut de gamme. En plus de transformer son apparence, le film préserve la peinture d’origine et reste entièrement réversible. Une approche esthétique et raffinée pour donner à votre auto une signature unique.
                     </p>
 
                     <div className="text-sm space-y-3">
                         <div className="p-4 border border-gray-200 rounded-lg">
-                            <strong className="text-[#d62458]">Personnalisation infinie</strong>
+                            <strong className="text-[#d62458]">Personnalisation sans limite</strong>
                         </div>
                         <div className="p-4 border border-gray-200 rounded-lg">
                             <strong className="text-[#d62458]">Protection de la carrosserie</strong>
                         </div>
                         <div className="p-4 border border-gray-200 rounded-lg">
-                            <strong className="text-[#d62458]">Coût réduit vs peinture</strong>
+                            <strong className="text-[#d62458]">Alternative plus accessible que la peinture</strong>
                         </div>
                     </div>
                 </motion.div>

@@ -29,10 +29,10 @@ export default function Header() {
 
                 {/* CTA TÉLÉPHONE (DESKTOP) */}
                 <a
-                    href="tel:+32473289842"
+                    href="tel:+32483115525"
                     className="hidden sm:inline-block bg-[#d62458] hover:bg-[#b51f4b] transition text-white text-[13px] px-5 py-2 rounded-full font-medium shadow-md lg:block"
                 >
-                    +32 4 73 28 98 42
+                    +32 4 83 11 55 25
                 </a>
 
                 {/* MOBILE BURGER BUTTON */}
@@ -88,11 +88,11 @@ export default function Header() {
                             </a>
 
                             <a
-                                href="tel:+32473289842"
+                                href="tel:+32483115525"
                                 onClick={() => setIsOpen(false)}
                                 className="inline-block bg-[#d62458] text-white text-center px-5 py-3 rounded-full text-sm mt-2"
                             >
-                                +32 4 73 28 98 42
+                                +32 4 83 11 55 25
                             </a>
                         </nav>
                     </motion.div>

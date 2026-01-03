@@ -32,18 +32,15 @@ export default function Hero() {
                     className="text-white max-w-xl"
                 >
                     <p className="text-[13px] uppercase tracking-[0.28em] text-[#d62458] mb-4">
-                        COVERING VOITURE BRUXELLES
+                        CoverUp Belgium
                     </p>
 
                     <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6 italic">
-                        Optez pour un style <br /> unique avec votre voiture
+                        Un look sur mesure <br /> pour votre voiture
                     </h1>
 
                     <p className="text-base md:text-lg text-gray-200 mb-6">
-                        Le covering est une alternative performante à la peinture classique.
-                        Grâce à un large choix de finitions et de textures, il permet de
-                        transformer votre véhicule tout en protégeant la carrosserie d’origine.
-                        Une solution idéale pour personnaliser votre voiture selon vos envies.
+                        Le covering constitue une solution efficace en remplacement de la peinture. Grâce à une vaste gamme de teintes et de couleurs, il transforme l’apparence de votre véhicule tout en préservant la carrosserie d’origine. Idéal pour personnaliser votre voiture selon vos goûts, sans engagement définitif.
                     </p>
 
                     <div className="flex flex-wrap gap-4">
@@ -55,10 +52,10 @@ export default function Hero() {
                         </a>
 
                         <a
-                            href="tel:+32473289842"
+                            href="tel:+32483115525"
                             className="border border-white/70 text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition flex items-center gap-2"
                         >
-                            +32 4 73 28 98 42
+                            +32 4 83 11 55 25
                         </a>
                     </div>
                 </motion.div>

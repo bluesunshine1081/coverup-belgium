@@ -29,7 +29,7 @@ export default function RealisationsCarousel() {
                 className="text-center mb-10"
             >
                 <p className="text-xs tracking-[0.2em] text-[#d62458] uppercase">
-                    Covering Bruxelles
+                    CoverUp Belgium
                 </p>
 
                 <h2 className="mt-2 text-2xl md:text-3xl font-semibold uppercase">

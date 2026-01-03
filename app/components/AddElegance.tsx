@@ -16,19 +16,15 @@ export default function AddElegance() {
                     viewport={{ once: true }}
                 >
                     <p className="text-xs uppercase tracking-[0.22em] text-[#d62458]">
-                        Covering Bruxelles
+                        CoverUp Belgium
                     </p>
 
                     <h2 className="text-2xl font-bold uppercase mt-2 mb-4">
-                        Donnez une touche d’élégance à votre véhicule
+                        Révélez le style de votre automobile
                     </h2>
 
                     <p className="text-sm text-slate-700 leading-relaxed mb-4">
-                        Grâce au covering, vous pouvez sublimer l’apparence de votre véhicule avec des
-                        finitions élégantes et durables. Que vous optiez pour un style sobre, moderne ou
-                        plus audacieux, les films vinyles permettent d’améliorer le look de votre voiture
-                        tout en préservant sa peinture d’origine. Une solution idéale pour apporter du
-                        caractère et une touche d’originalité à votre automobile.
+                        Le covering permet de redéfinir l’apparence de votre voiture avec des finitions élégantes et résistantes. Du look discret au rendu plus affirmé, les films vinyles subliment les lignes du véhicule tout en préservant la peinture d’origine. Une approche esthétique et premium pour gagner en caractère et en originalité.
                     </p>
                 </motion.div>
 

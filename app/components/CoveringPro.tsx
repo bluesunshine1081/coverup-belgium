@@ -9,15 +9,13 @@ export default function CoveringPro() {
             {/* Title */}
             <div className="text-center mb-10">
                 <p className="text-xs uppercase tracking-[0.22em] text-[#d62458]">
-                    Covering Bruxelles
+                    CoverUp Belgium
                 </p>
                 <h2 className="mt-2 text-2xl md:text-3xl font-bold uppercase">
                     Nos prestations
                 </h2>
                 <p className="max-w-4xl mx-auto text-center text-sm text-slate-600 mt-2">
-                    Pour les professionnels et les particuliers, nous proposons des solutions de covering adaptées
-                    à tous les besoins : changement de couleur, total covering, semi covering, lettrage publicitaire,
-                    vitres teintées ou encore film de protection PPF.
+                    Que vous soyez particulier ou professionnel, nous proposons une sélection de solutions de covering et de protection pensées pour chaque projet : changement de teinte, covering intégral ou partiel, marquage et lettrage, vitrages teintés, et d'autres services.
                 </p>
             </div>
 
@@ -31,32 +29,27 @@ export default function CoveringPro() {
                     viewport={{ once: true }}
                 >
                     <h3 className="text-xl font-bold uppercase mb-4 text-[#1a1a1a]">
-                        Covering véhicule professionnel
+                        Covering pour véhicule professionnel
                     </h3>
 
                     <p className="text-sm text-slate-700 leading-relaxed mb-4">
-                        Vous avez une entreprise et vous êtes à la recherche d’un moyen efficace de valoriser
-                        votre image de marque tout en augmentant votre visibilité sur la route ? Grâce au covering
-                        professionnel, vous transformez vos véhicules de société en supports de communication puissants.
-                        L’habillage publicitaire permet de renforcer votre identité visuelle, d’améliorer la cohérence
-                        de votre flotte et de capter l’attention instantanément.
-                        C’est une solution durable, économique et totalement personnalisable.
+                        Vous souhaitez valoriser votre marque et gagner en visibilité au quotidien, sans compromis sur l’esthétique ? Le covering professionnel transforme vos véhicules de société en supports de communication élégants et remarqués. Du design à la pose, nous créons un habillage sur mesure qui consolide votre identité visuelle, harmonise votre flotte et attire l’attention avec justesse. Une solution durable, maîtrisée et entièrement personnalisable.
                     </p>
 
                     <div className="space-y-3 text-sm text-slate-700">
                         <div className="p-4 border border-gray-200 rounded-lg">
                             <strong className="text-[#d62458]">
-                                Coûts réduits & image professionnelle renforcée
+                                Maîtrise des coûts, image de marque valorisée
                             </strong>
                         </div>
                         <div className="p-4 border border-gray-200 rounded-lg">
                             <strong className="text-[#d62458]">
-                                Publicité mobile efficace
+                                Visibilité mobile, impact immédiat
                             </strong>
                         </div>
                         <div className="p-4 border border-gray-200 rounded-lg">
                             <strong className="text-[#d62458]">
-                                Renforcer votre présence locale
+                                Rayonnement local renforcé
                             </strong>
                         </div>
                     </div>

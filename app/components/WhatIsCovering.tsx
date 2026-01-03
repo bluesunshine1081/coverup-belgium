@@ -6,18 +6,18 @@ import { fadeUp } from "../lib/motion";
 const items = [
     {
         icon: "🚗",
-        title: "Personnalisation infinie",
-        text: "Vous pouvez choisir une vaste gamme de couleurs, effets et finitions...",
+        title: "Personnalisation sans limite",
+        text: "Accédez à un vaste choix de couleurs, d’effets et de finitions pour créer un rendu qui vous ressemble.",
     },
     {
         icon: "🎨",
-        title: "Choix et couleur personnalisée",
-        text: "Grâce à la personnalisation, le covering permet d’adapter l’apparence...",
+        title: "Teinte et finition sur mesure",
+        text: "Le covering s’adapte à votre style : discret, sportif ou audacieux, avec une signature visuelle parfaitement maîtrisée.",
     },
     {
         icon: "💰",
-        title: "Coût abordable avec pose de qualité",
-        text: "Le covering est bien moins coûteux qu’une peinture traditionnelle...",
+        title: "Alternative maîtrisée, finition premium",
+        text: "Une solution généralement plus accessible qu’une peinture traditionnelle, avec une pose professionnelle et un résultat haut de gamme.",
     },
 ];
 
@@ -36,14 +36,7 @@ export default function WhatIsCovering() {
                 </h2>
 
                 <p className="text-sm text-slate-700 leading-relaxed mb-12">
-                    Le covering automobile consiste à appliquer un film adhésif de haute
-                    qualité sur tout ou partie de la carrosserie afin de modifier
-                    l’apparence du véhicule ou de protéger la peinture d’origine.
-                    Cette technique, totalement réversible, permet d’obtenir un rendu
-                    esthétique professionnel sans devoir passer par une peinture
-                    définitive et plus coûteuse. Le film vinyle offre une grande variété
-                    de couleurs, de textures et de finitions, permettant une personnalisation
-                    complète et durable.
+                    Le covering automobile consiste à poser un film adhésif premium sur tout ou partie de la carrosserie afin de sublimer l’esthétique du véhicule ou de préserver la peinture d’origine. Entièrement réversible, cette solution offre une finition soignée sans passer par une peinture définitive, souvent plus onéreuse. Grâce à une large sélection de teintes, textures et finitions, le covering permet une personnalisation élégante, durable et parfaitement adaptée à vos envies.
                 </p>
             </motion.div>
 

@@ -80,9 +80,7 @@ export default function ContactFormFull() {
                     <h3 className="text-xl font-bold uppercase mb-3">Nous contacter</h3>
 
                     <p className="text-sm text-slate-700 mb-6">
-                        Pour toute demande de devis, renseignement ou projet de covering — que ce soit pour un véhicule personnel ou professionnel — n’hésitez pas à nous contacter.
-                        Nous vous répondrons dans les 24 heures.
-                        Vous pouvez nous appeler directement, envoyer un e-mail, ou remplir le formulaire ci-dessous : notre équipe vous accompagnera pour trouver la meilleure solution adaptée à vos besoins et votre budget.
+                        Vous envisagez un covering ou un film de protection ? Parlons de votre projet. Nous répondons sous 24 heures et vous accompagnons avec conseil et précision. Contact par téléphone, e-mail ou via le formulaire ci-dessous.
                     </p>
 
                     <p className="text-sm">
@@ -90,8 +88,8 @@ export default function ContactFormFull() {
                     </p>
                     <p className="text-sm">
                         <strong>Téléphone : </strong>
-                        <a className="text-[#d62458]" href="tel:+32473289842">
-                            +32 4 73 28 98 42
+                        <a className="text-[#d62458]" href="tel:+32483115525">
+                            +32 4 83 11 55 25
                         </a>
                     </p>
                 </motion.div>

@@ -28,7 +28,17 @@ const items = [
         title: "FILM DE PROTECTION ANTI-RAYURES",
         text: "Le PPF crée une seconde couche protectrice efficace contre les rayures et les impacts.",
         img: "/images/section-3-film-rayure-protection.png"
-    }
+    },
+    {
+        title: "CIEL ETOILÉ",
+        text: "Le PPF crée une seconde couche protectrice efficace contre les rayures et les impacts.",
+        img: "/images/section-3-film-rayure-protection.png"
+    },
+    {
+        title: "BODY KIT",
+        text: "Le PPF crée une seconde couche protectrice efficace contre les rayures et les impacts.",
+        img: "/images/section-3-film-rayure-protection.png"
+    },
 ];
 
 
@@ -37,7 +47,7 @@ export default function ServicesCards() {
         <section id="services" className="py-10 bg-white text-slate-900">
             <div className="max-w-6xl mx-auto px-4 md:px-6 text-center mb-10">
                 <p className="text-[13px] uppercase tracking-[0.22em] text-[#d62458] mb-2">
-                    Covering Bruxelles
+                    CoverUp Belgium
                 </p>
                 <h2 className="text-2xl md:text-3xl font-bold">Nos Services</h2>
             </div>

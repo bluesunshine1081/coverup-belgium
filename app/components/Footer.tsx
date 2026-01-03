@@ -14,8 +14,8 @@ export default function Footer() {
                     <h3 className="text-lg font-semibold mb-3">Contact</h3>
                     <ul className="space-y-2 text-sm text-slate-300">
                         <li>
-                            <a href="tel:+32473289842" className="hover:text-white">
-                                +32 4 73 28 98 42
+                            <a href="tel:+32483115525" className="hover:text-white">
+                                +32 4 83 11 55 25
                             </a>
                         </li>
                         {/* TODO: ajouter email et éventuellement horaire comme dans le footer */}
@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h3 className="text-lg font-semibold mb-3">Covering Bruxelles</h3>
+                    <h3 className="text-lg font-semibold mb-3">CoverUp Belgium</h3>
                     <ul className="space-y-1 text-sm text-slate-300">
                         <li>
                             <a

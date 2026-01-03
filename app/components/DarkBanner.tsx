@@ -12,14 +12,11 @@ export default function DarkBanner() {
 
             <div className="relative z-10">
                 <h2 className="text-xl md:text-2xl font-bold uppercase mb-2">
-                    Votre spécialiste covering à Bruxelles
+                    L’excellence du covering en Belgique
                 </h2>
 
                 <p className="text-sm text-gray-200 mb-6 max-w-2xl mx-auto">
-                    Spécialistes du covering automobile, nous transformons votre véhicule avec précision
-                    et créativité. Que vous souhaitiez protéger votre carrosserie, moderniser son style
-                    ou lui offrir une finition unique, nous mettons notre expertise à votre service pour
-                    un résultat durable et irréprochable.
+                    Nous réalisons des coverings sur mesure, pensés pour magnifier votre véhicule tout en préservant sa carrosserie. Qu’il s’agisse d’une transformation esthétique, d’une protection renforcée ou d’une finition distinctive, notre équipe garantit une exécution précise et un résultat irréprochable dans le temps.
                 </p>
 
                 <div className="flex justify-center gap-4">
@@ -31,10 +28,10 @@ export default function DarkBanner() {
                     </a>
 
                     <a
-                        href="tel:+32473289842"
+                        href="tel:+32483115525"
                         className="border border-white/80 px-6 py-3 rounded-full text-sm hover:bg-white/10"
                     >
-                        +32 4 73 28 98 42
+                        +32 4 83 11 55 25
                     </a>
                 </div>
             </div>
